@@ -5,7 +5,7 @@
    "label": "Sales Order Trends"
   }
  ],
- "content": "[{\"id\":\"kb3XPLg8lb\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"nmIytNN_c3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"ANALYTICS\",\"col\":3}},{\"id\":\"qEe3jqethU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"CRM Portal Page\",\"col\":3}},{\"id\":\"snrzfbFr5Y\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Customer\",\"col\":3}},{\"id\":\"CPxEyhaf3G\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Sales Invoice\",\"col\":3}},{\"id\":\"nWd2KJPW8l\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Item\",\"col\":3}},{\"id\":\"tniUTW0PJl\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}},{\"id\":\"d_KVM1gsf9\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"qhc_7w_L82\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Sales Order Trends\",\"col\":12}},{\"id\":\"o09-5Z4ZtT\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"JVu8-FJZCu\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"6J0CVl1mPo\",\"type\":\"card\",\"data\":{\"card_name\":\"Data Import and Settings\",\"col\":4}},{\"id\":\"JiuSi0ubOg\",\"type\":\"card\",\"data\":{\"card_name\":\"Accounting\",\"col\":4}},{\"id\":\"ji2Jlm3Q8i\",\"type\":\"card\",\"data\":{\"card_name\":\"Stock\",\"col\":4}}]",
+ "content": "[{\"id\":\"kb3XPLg8lb\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"snrzfbFr5Y\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Customer\",\"col\":3}},{\"id\":\"CPxEyhaf3G\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Sales Invoice\",\"col\":3}},{\"id\":\"nWd2KJPW8l\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Item\",\"col\":3}},{\"id\":\"tniUTW0PJl\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}},{\"id\":\"d_KVM1gsf9\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"qhc_7w_L82\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Sales Order Trends\",\"col\":12}},{\"id\":\"o09-5Z4ZtT\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"JVu8-FJZCu\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"6J0CVl1mPo\",\"type\":\"card\",\"data\":{\"card_name\":\"Data Import and Settings\",\"col\":4}},{\"id\":\"JiuSi0ubOg\",\"type\":\"card\",\"data\":{\"card_name\":\"Accounting\",\"col\":4}},{\"id\":\"ji2Jlm3Q8i\",\"type\":\"card\",\"data\":{\"card_name\":\"Stock\",\"col\":4}}]",
  "creation": "2020-01-23 13:46:38.833076",
  "custom_blocks": [],
  "docstatus": 0,
@@ -262,20 +262,6 @@
  "roles": [],
  "sequence_id": 1.0,
  "shortcuts": [
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "ANALYTICS",
-   "type": "URL",
-   "url": "https://saathi4u.arkone.dev/insights/dashboard/DSH-0002"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "CRM Portal Page",
-   "type": "URL",
-   "url": "https://saathi4u-crm.arkone.dev/crm"
-  },
   {
    "label": "Item",
    "link_to": "Item",
