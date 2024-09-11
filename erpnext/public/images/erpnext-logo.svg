@@ -1,10 +1,1 @@
-<svg width="272" height="272" viewBox="0 0 272 272" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="272" height="272" rx="20" fill="#121212"/>
-<path d="M78.4941 212.54H71.6389L135.998 85.1968L200.332 212.54H78.4941ZM69.9941 215.794V221.04V229V237.5H78.4941H230H243.82L237.586 225.166L143.586 39.1661L136 24.155L128.414 39.1661L34.4138 225.166L28.1805 237.5H42H53.7961H59.0241L61.3822 232.834L69.9941 215.794Z" fill="url(#paint0_linear_2035_3)" stroke="#FFFAFA" stroke-width="17"/>
-<defs>
-<linearGradient id="paint0_linear_2035_3" x1="136" y1="43" x2="136" y2="229" gradientUnits="userSpaceOnUse">
-<stop stop-color="#1053FD"/>
-<stop offset="1" stop-color="#CE0FA4" stop-opacity="0.71"/>
-</linearGradient>
-</defs>
-</svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 172.8 172.8"><defs><style>.cls-1{fill:url(#linear-gradient);}</style><linearGradient id="linear-gradient" x1="1.72" y1="86.4" x2="171.08" y2="86.4" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#39b54a"/><stop offset="0.06" stop-color="#22a848"/><stop offset="0.13" stop-color="#0f9d46"/><stop offset="0.2" stop-color="#049644"/><stop offset="0.28" stop-color="#009444"/><stop offset="0.67" stop-color="#009444"/><stop offset="1" stop-color="#39b54a"/></linearGradient></defs><path class="cls-1" d="M151.67,1.72H21.13A19.41,19.41,0,0,0,1.72,21.13V151.67a19.41,19.41,0,0,0,19.41,19.41H151.67a19.41,19.41,0,0,0,19.41-19.41V21.13A19.41,19.41,0,0,0,151.67,1.72ZM138,161.51H65.78V141.92H116L86.4,60.56,50.68,158.74a4.2,4.2,0,0,1-4,2.77H34.81a4.21,4.21,0,0,1-4-5.64L82.45,14.06a4.2,4.2,0,0,1,7.9,0l51.59,141.81A4.21,4.21,0,0,1,138,161.51Z"/></svg>

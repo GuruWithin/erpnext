@@ -14,7 +14,7 @@ add_to_apps_screen = [
 	{
 		"name": "erpnext",
 		"logo": "/assets/erpnext/images/erpnext-logo-blue.png",
-		"title": "ERPNext",
+		"title": "ERP",
 		"route": "/app/home",
 		# "has_permission": "erpnext.api.permission.has_app_permission"
 	}
