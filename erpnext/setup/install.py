@@ -187,12 +187,6 @@ def add_standard_navbar_items():
 			"is_standard": 1,
 		},
 		{
-			"item_label": "Frappe School",
-			"item_type": "Route",
-			"route": "https://frappe.school?utm_source=in_app",
-			"is_standard": 1,
-		},
-		{
 			"item_label": "Report an Issue",
 			"item_type": "Route",
 			"route": "https://github.com/frappe/erpnext/issues",
