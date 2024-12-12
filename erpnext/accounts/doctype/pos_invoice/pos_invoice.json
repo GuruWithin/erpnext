@@ -1581,10 +1581,11 @@
    "print_hide": 1
   }
  ],
+ "hide_toolbar": 1,
  "icon": "fa fa-file-text",
  "is_submittable": 1,
  "links": [],
- "modified": "2024-11-26 13:10:50.309570",
+ "modified": "2024-12-12 15:32:48.990873",
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "POS Invoice",

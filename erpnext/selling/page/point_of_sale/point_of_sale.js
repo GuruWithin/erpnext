@@ -1,6 +1,11 @@
 frappe.provide("erpnext.PointOfSale");
 
 frappe.pages["point-of-sale"].on_page_load = function (wrapper) {
+	document.getElementsByClassName("body-sidebar-placeholder")[0].style.width = "0";
+	var sidebar = document.getElementsByClassName("body-sidebar")[0].style
+	sidebar.display = "none";
+	sidebar.width = "0";
+
 	frappe.ui.make_app_page({
 		parent: wrapper,
 		title: __("Point of Sale"),
@@ -20,3 +25,7 @@ frappe.pages["point-of-sale"].refresh = function (wrapper) {
 		wrapper.pos.check_opening_entry();
 	}
 };
+
+// frappe.pages["point-of-sale"].on_page_load = function (wrapper) {
+
+// }
