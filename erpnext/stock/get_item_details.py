@@ -630,7 +630,9 @@ def _get_item_tax_template(
 			if tax.valid_from or tax.maximum_net_rate:
 				# In purchase Invoice first preference will be given to supplier invoice date
 				# if supplier date is not present then posting date
-				validation_date = ctx.get("bill_date") or ctx.get("transaction_date")
+				validation_date = (
+					ctx.get("bill_date") or ctx.get("posting_date") or ctx.get("transaction_date")
+				)
 
 				if getdate(tax.valid_from) <= getdate(validation_date) and is_within_valid_range(ctx, tax):
 					taxes_with_validity.append(tax)
@@ -688,18 +690,18 @@ def is_within_valid_range(ctx: ItemDetailsCtx, tax) -> bool:
 
 @frappe.whitelist()
 def get_item_tax_map(*, doc: str | dict | Document, tax_template: str | None = None, as_json=True):
-    doc = parse_json(doc)
-    item_tax_map = {}
-    for t in (t for t in (doc.get("taxes") or []) if t.get("set_by_item_tax_template") is not None):
-        item_tax_map[t["account_head"]] = t["rate"]
+	doc = parse_json(doc)
+	item_tax_map = {}
+	for t in (t for t in (doc.get("taxes") or []) if not t.get("set_by_item_tax_template")):
+		item_tax_map[t.get("account_head")] = t.get("rate")
 
-    if tax_template:
-        template = frappe.get_cached_doc("Item Tax Template", tax_template)
-        for d in template.taxes:
-            if frappe.get_cached_value("Account", d.tax_type, "company") == doc.get("company"):
-                item_tax_map[d.tax_type] = d.tax_rate
+	if tax_template:
+		template = frappe.get_cached_doc("Item Tax Template", tax_template)
+		for d in template.taxes:
+			if frappe.get_cached_value("Account", d.tax_type, "company") == doc.get("company"):
+				item_tax_map[d.tax_type] = d.tax_rate
 
-    return json.dumps(item_tax_map) if as_json else item_tax_map
+	return json.dumps(item_tax_map) if as_json else item_tax_map
 
 
 @frappe.whitelist()
